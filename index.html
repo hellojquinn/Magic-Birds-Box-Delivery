@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+<meta charset="UTF-8" />
+<title>Magic Birds</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Caudex">
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+
+<script>
+  $(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 25) {
+            $(".header").addClass("active");
+        } else {
+           $(".header").removeClass("active");
+        }
+    });
+});
+</script>
+
+</head>
+
+<header id="header">
+<div class="header">
+
+  <img src="https://i.ibb.co/nmq7M3x/Magic-Birds.png" id="header-img" alt="Magic Birds Logo" width="300" onclick="location.href='#top'"></img>
+
+
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#works-p">How It Works</a></li>
+      <li><a class="nav-link" href="#Whats_Inside">What's Inside</a></li>
+      <li><a class="nav-link" href="#pricing">Pricing</a></li>
+    </ul>
+  </nav>
+
+</div>
+</header>
+
+<body>
+  <main>
+      <div class="hero-image">
+      <div class="hero-text">
+        <h1 id="welcome">Welcome to Magic Birds</h1>
+
+        </div>
+      <div class="hero-button"
+      <button type="button" onclick="location.href='#works-p'">See how it works &raquo</input>
+    
+    </div>
+    </div>
+
+<div class="subscribe-form">
+   <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <h3>Subscribe to our newsletter and receive $10 off your first Magic Birds box delivery!*</h3>
+  <p>*New subscribers only.</p>
+  <input id="email" placeholder="Enter email address" type="email" name="email" required/>
+  
+   <input id="submit" type="submit" value="Get $10"/>
+   
+</form>
+</div>
+
+<hr>
+
+ <p id="works-p">Everything your birds want, delivered in a box.</p>
+
+<section class="works">
+<div class="works-content">
+  <h1 id="how-it-works">How It Works<span>:</span></h1>
+  
+<div class="works-boxes">
+  
+    <div class="works-1">
+      <h1 id="one">1.</h1>
+      <p id="one-p">Tell us what kind of birds you have.</p>
+    </div>
+
+    <div class="works-2">
+      <h1 id="two">2.</h1>
+      <p id="two-p">Choose your box size and type.</p>
+    </div>
+
+    <div class="works-3">
+      <h1 id="three">3.</h1>
+      <p id="three-p">Choose your delivery frequency.</p>
+    </div>
+  </div>
+
+</div>
+</section>
+<hr>
+<section class="inside">
+  <p id="Whats_Inside">What's Inside<span>:</span></p>
+
+<div class="inside-content">
+
+<div class="inside-content-text">
+   
+  <ul>
+    <h3>Seed, treats, and toys!</h3>
+   <li>Magic Birds specially formulated propriety seed mix - <span>Mummy's Special Seed Mix</span>, our best quality mix for your birds nutritional and taste needs.</li>
+<br>
+   <li>Various top-brand bird treats for your feathered friends with each box.</li>
+<br>
+   <li>Each box delivery will come with a different toy, meaning over time your birds will have many different toys, and something new to keep them interested regularly.</li>
+  </ul>
+  </div>
+
+  <div class="inside-content-ingredients">
+    
+  <ul>
+    <h3>Ingredients:</h3>
+    <li>Panorama Millet</li>
+    <li>White French Millet</li>
+    <li>Canola Seed</li>
+    <li>Canary Seed</li>
+    <li>Shirohie Millet</li>
+    <li>Red Pannicum Millet</li>
+    <li>Linseed</li>
+    <li>Hulled Oats</li>
+    <li>Shell Grit</li>
+    <li>Coconut</li>
+    <li>Black Sesame Seed</li>
+  </ul>
+  </div>
+
+</div>
+</section>
+<hr>
+<section class="pricing">
+<div class="pricing-content">
+
+  <h3 id="pricing">Pricing<span class="colon">:</span></h3>
+<div class="pricing-boxes">
+  <div class="pricing-1">
+    <h3 id="small">Small: <span class="cost">$29</span></h3>
+    
+    <ul id="small-p"> 
+      <li>For 1-5 Birds</li> 
+      <li>750g Seed</li> 
+      <li>1 Toy</li>
+      <li>2 Treats</li>
+    </ul>
+    <div class="cart">
+    <button class="cart-button" id="small-cart">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="pricing-2">
+    <h3 id="medium">Medium: <span class="cost">$39</span></h3>
+    <ul id="medium-p">
+      <li>For 5-20 Birds</li>
+      <li>2.5kg Seed</li>
+      <li>2 Toys</li>
+      <li>3 Treats</li>
+    </ul>
+    <div class="cart">
+    <button class="cart-button">Add to Cart</button>
+    </div>
+  </div>
+
+  <div class="pricing-3">
+    <h3 id="large">Large: <span class="cost">$79</span></h3>
+    <ul id="large-p">
+      <li>For 20+ Birds</li>
+      <li>4.5kg Seed</li>
+      <li>3 Toys</li>
+      <li>4 Treats</li>
+    </ul>
+    <div class="cart">
+    <button class="cart-button">Add to Cart</button>
+    </div>
+  </div>
+ 
+</div>
+</div>
+</section>
+<hr>
+</div>
+
+<section class="about">
+<div class="about-content">
+  <h3 id="About">About<span>:</span></h3>
+  <p id="about-p">The makers of Magic Birds are bird lovers too, and have always found it difficult to fulfil the needs of their feathered friends from a single store, often having to travel to multiple locations on a frequent basis to cover all their birds' needs, and so with a little encouragement from many finches, Magic Birds was born.</p>
+</div>
+
+<div class="video-wrap">
+<iframe id="video"
+width="400" height="260"
+  src="https://www.youtube.com/embed/Tbtr6vu61MQ"      
+  title="Zebra Finch in the wild a documentary"   
+  allowfullscreen>
+</iframe>
+</div>
+</section>
+
+<hr>
+
+<div class="subscribe-form">
+   <form id="form" action="https://www.freecodecamp.com/email-submit">
+  <h3>Subscribe to our newsletter and receive $10 off your first Magic Birds box delivery!*</h3>
+  <p>*New subscribers only.</p>
+  <input id="email" placeholder="Enter email address" type="email" name="email" required/>
+  
+   <input id="submit" type="submit" value="Get $10"/>
+   
+</form>
+</div>
+
+<hr>
+
+<section class="contact">
+
+  <p id="Contact"></p>
+
+  <div class="contact-content">
+
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-envelope"></a>
+    <a href="#" class="fa fa-phone"></a>
+
+
+</div>
+  <p class="footer">&copy Copyright Magic Birds Inc - freeCodeCamp Project 2022</p>
+</section>
+
+  </main>
+</body>
+</html>
